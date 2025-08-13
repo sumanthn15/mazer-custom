@@ -47,12 +47,6 @@
                     <i class="bi bi-{{ sidebarItem.icon }}"></i>
                     <span>{{sidebarItem.name}}</span>
                 </a>
-                <li class="sidebar-item">
-                <a href="/users.html" class="sidebar-link">
-                    <i class="bi bi-people"></i>
-                    <span>Users</span>
-                </a>
-                </li>
                 {% if sidebarItem.submenu.length > 0 %}
                 <ul class="submenu {{ 'active' if (sub.url == filename or filename|startsWith(sidebarItem.key)) }}">
                     {% for sub in sidebarItem.submenu %}

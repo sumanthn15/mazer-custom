@@ -9,6 +9,13 @@
     "icon": "grid-fill"
   },
   {
+  "name": "Users",
+  "icon": "people",
+  "url": "/users.html",
+  "isTitle": false,
+  "submenu": []
+  },
+  {
     "name": "Components",
     "key": "component",
     "icon": "stack",
