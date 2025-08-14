@@ -2,7 +2,7 @@ import ApexCharts from "apexcharts";
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Dashboard chart script loaded");
 
-    fetch("/data/data.json")
+    fetch(`${window.location.origin}/data/data.json`)
         .then(res => res.json())
         .then(data => {
             console.log("Fetched dashboard data:", data);

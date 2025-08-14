@@ -1,6 +1,6 @@
 import ApexCharts from "apexcharts";
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("/data/data.json")
+    fetch(`${window.location.origin}/data/data.json`)
         .then(res => res.json())
         .then(data => {
             // ✅ Update Stats
