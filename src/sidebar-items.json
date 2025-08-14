@@ -11,9 +11,7 @@
   {
   "name": "Users",
   "icon": "people",
-  "url": "/users.html",
-  "isTitle": false,
-  "submenu": []
+  "url": "/users.html"
   },
   {
     "name": "Components",
