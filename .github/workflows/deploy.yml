@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  
+      - main
 
 permissions:
   contents: read
@@ -43,3 +43,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Print live site URL
+        run: |
+          echo "✅ Deployment complete!"
+          echo "🌐 Your site is live at: ${{ steps.deployment.outputs.page_url }}"
