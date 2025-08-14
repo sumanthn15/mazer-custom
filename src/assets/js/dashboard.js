@@ -1,6 +1,6 @@
 import ApexCharts from "apexcharts";
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('/data/data.json')
+    fetch(`${import.meta.env.BASE_URL}data/data.json`)
         .then(res => res.json())
         .then(data => {
             console.log(data);
