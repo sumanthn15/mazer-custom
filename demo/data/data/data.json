@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "totalUsers": 1200,
+    "totalSales": 4500,
+    "ordersPending": 32,
+    "revenue": 95000
+  },
+  "monthlySales": [1200, 1500, 1800, 2000, 2100, 1900, 2200],
+  "recentOrders": [
+    { "id": 1, "customer": "John Doe", "product": "Laptop", "status": "Completed" },
+    { "id": 2, "customer": "Jane Smith", "product": "Headphones", "status": "Pending" },
+    { "id": 3, "customer": "Alex Brown", "product": "Keyboard", "status": "Cancelled" },
+    { "id": 4, "customer": "Michael Green", "product": "Smartphone", "status": "Completed" },
+    { "id": 5, "customer": "Emily Davis", "product": "Tablet", "status": "Pending" },
+    { "id": 6, "customer": "David Wilson", "product": "Smartwatch", "status": "Completed" },
+    { "id": 7, "customer": "Sophia Martinez", "product": "Gaming Console", "status": "Cancelled" },
+    { "id": 8, "customer": "Ethan Taylor", "product": "Bluetooth Speaker", "status": "Completed" },
+    { "id": 9, "customer": "Olivia Anderson", "product": "Camera", "status": "Pending" },
+    { "id": 10, "customer": "Chris Johnson", "product": "External Hard Drive", "status": "Completed" }
+  ],
+  "users": [
+    { "name": "John Doe", "email": "john@example.com", "joinDate": "2024-05-10", "status": "Active" },
+    { "name": "Jane Smith", "email": "jane@example.com", "joinDate": "2024-06-12", "status": "Inactive" },
+    { "name": "Mike Lee", "email": "mike@example.com", "joinDate": "2024-07-01", "status": "Active" },
+    { "name": "Sara Johnson", "email": "sara.johnson@example.com", "joinDate": "2024-03-15", "status": "Active" },
+    { "name": "David Wilson", "email": "david.wilson@example.com", "joinDate": "2024-01-20", "status": "Inactive" },
+    { "name": "Emily Brown", "email": "emily.brown@example.com", "joinDate": "2024-04-05", "status": "Active" },
+    { "name": "Chris Taylor", "email": "chris.taylor@example.com", "joinDate": "2024-02-18", "status": "Inactive" },
+    { "name": "Laura Adams", "email": "laura.adams@example.com", "joinDate": "2024-06-01", "status": "Active" },
+    { "name": "Daniel White", "email": "daniel.white@example.com", "joinDate": "2024-05-25", "status": "Active" },
+    { "name": "Megan Harris", "email": "megan.harris@example.com", "joinDate": "2024-07-15", "status": "Inactive" },
+    { "name": "Oliver Scott", "email": "oliver.scott@example.com", "joinDate": "2024-08-01", "status": "Active" },
+    { "name": "Sophia Clark", "email": "sophia.clark@example.com", "joinDate": "2024-07-10", "status": "Inactive" },
+    { "name": "Ethan Wright", "email": "ethan.wright@example.com", "joinDate": "2024-06-30", "status": "Active" },
+    { "name": "Grace King", "email": "grace.king@example.com", "joinDate": "2024-05-22", "status": "Inactive" },
+    { "name": "Lucas Hall", "email": "lucas.hall@example.com", "joinDate": "2024-04-28", "status": "Active" },
+    { "name": "Isabella Young", "email": "isabella.young@example.com", "joinDate": "2024-03-19", "status": "Active" },
+    { "name": "Henry Allen", "email": "henry.allen@example.com", "joinDate": "2024-02-14", "status": "Inactive" },
+    { "name": "Amelia Hill", "email": "amelia.hill@example.com", "joinDate": "2024-01-05", "status": "Active" },
+    { "name": "Jack Martinez", "email": "jack.martinez@example.com", "joinDate": "2024-08-05", "status": "Inactive" },
+    { "name": "Chloe Baker", "email": "chloe.baker@example.com", "joinDate": "2024-07-28", "status": "Active" }
+  ]
+}
