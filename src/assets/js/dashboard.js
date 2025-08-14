@@ -1,8 +1,9 @@
 import ApexCharts from "apexcharts";
 document.addEventListener("DOMContentLoaded", () => {
-    fetch(`${window.location.origin}/data/data.json`)
+    fetch("./data/data.json")
         .then(res => res.json())
         .then(data => {
+            console.log(data);
             // ✅ Update Stats
             document.getElementById("totalUsers").textContent = data.stats.totalUsers;
             document.getElementById("totalSales").textContent = data.stats.totalSales;
