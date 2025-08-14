@@ -10,8 +10,8 @@
   },
   {
   "name": "Users",
-  "icon": "people",
-  "url": "/users.html"
+  "url": "users.html",
+  "icon": "people"
   },
   {
     "name": "Components",
