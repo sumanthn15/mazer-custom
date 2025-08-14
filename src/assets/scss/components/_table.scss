@@ -6,7 +6,8 @@
     border-bottom: 1px solid #dedede !important;
 }
 
-.table {
+.table thead{
+    background-color: #F3F4F6;
     &.table-sm {
         tr td, tr th {
             padding: 1rem;
