@@ -75,7 +75,7 @@ window.addEventListener("load", () => {
     statusFilter.addEventListener("change", applyFilters);
 
     // Fetch data
-    fetch(`${import.meta.env.BASE_URL}data/data.json`)
+    fetch(`${window.location.origin}/data/data.json`)
         .then(res => res.json())
         .then(data => {
             console.log("Fetched users:", data.users);
