@@ -107,7 +107,7 @@ build({
 
 
 export default defineConfig((env) => ({
-    publicDir: 'static',
+    publicDir: 'public',
     base: '/mazer-custom/',
     root,
     plugins: [
