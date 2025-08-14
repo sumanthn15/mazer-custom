@@ -108,7 +108,7 @@ build({
 
 export default defineConfig((env) => ({
     publicDir: 'public',
-    base: '/mazer-custom/',
+    base: '/',
     root,
     plugins: [
         viteStaticCopy({
